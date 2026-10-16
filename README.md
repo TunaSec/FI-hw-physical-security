@@ -1,3 +1,7 @@
+# Návrh predmetu o fyzickej bezpečnosti
+
+Predmet má za úlohu doplniť dôležité informácie o zabezpečení priestorov a hardvéru. Vyštudovaným manažérom IT bezpečnosti, ktorí sa dostanú do firiem, tieto znalosti často chýbajú a musia si ich dopĺňať neskôr. Uvedomovať si potenciálne nedostatky v ochrane prístupu k hardvéru je na takejto pozícii veľmi dôležité...
+
 Navrhoval by som sa zamerať na následujúce témy. Samozrejme je tu obrovský priestor pre doplnenie (najmä pri EZS budú určite existovať ľudia ktorí vedia viac)
 
 
