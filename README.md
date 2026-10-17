@@ -10,7 +10,15 @@ Druhá časť by sa zameriavala na samotné zabezpečenie prístupu (OK, vieme, 
 
 ## Fyzická Bezpečnosť
 
-Rozdelené na 2h prednášky + nápady na možné cvičenia
+Rozdelené na 2h prednášky. Jedným zo zdrojov pre študentov môže byť aj moja Bc práca, ktorú môžem prepracovať a zaktualizovať: https://is.muni.cz/auth/th/prt8b/bp-santa-final-digital.pdf
+Niektoré časti niektorých prednášok by mohli byť neverejné.
+
+Cvičenia sa nedajú robiť ku všetkým prednáškam, ale určite by sa dalo:
+- Lockpicking - nejaké vložky, nech si študenti vyskúšajú + Lishi, atď (Dajú sa vrámci budgetu FI nakúpiť nejaké nástroje?)
+- RF Hacking s Flipperom
+- Klonovanie nezabezpečených kariet Flipper + Proxmark, tu môžem ukázať aj svoju neverejnú prácu na PCF793x PIT transpondéroch (Ručné myčky s MARK MF2 systémami, immo starších vozidiel)
+- Môžeme chodiť po FI a ukazovať útoky pod dvere (zachytenie kľučkou), alebo ako silným magnetom znefunkčniť Abloy EL zámok (používané všade po FI), pri tom si hovoriť, akú zraniteľnosť mali analógové interkomy...
+- Diskusia a veci, ktoré by nemali byť nahrané na prednáške...
 
 ### 1. Základy FB:
    - Legal disclaimer: Čo a prečo nesmiete robiť...
@@ -22,7 +30,8 @@ Rozdelené na 2h prednášky + nápady na možné cvičenia
    - Prečo sa nespoliehať na integrátorov a zámočníkov a byť pri celom procese zabezpečovania (laxný prístup, nevzdelávanie sa a následná nekompetencia, zvyk nadradzovať funkčnosť a pohodlnosť nad bezpečnosť)
    - V inštitúciách väčšinou zodpovednosť za fyzickú bezpečnosť a jej prvky implicitne preberajú ľudia, ktorí nemajú základy v žiadnom príbuznom odbore. Je potrebné to zmeniť to alebo s nimi úzko spolupracovať!!
 
-### 2. Ľudský faktor (presahy s personálnou bezpečnosťou) + Nechránené otvory a stavebné/konštrukčné/mechanické chyby, zraniteľnosti v infraštruktúre
+
+### 2. Ľudský faktor (presahy s personálnou bezpečnosťou) 
    - Na vrátniciach Vás aj tak väčšinou pustia s dobrým pretextom a niekedy Vám dajú aj kľúč
    - Zbieranie informácií: pohodené kľúče, nechránené RFID, možnosť odčítania zadávania kódu do EZS, odpadky..... ako sa to dá využiť sa naučíme neskôr
    - Red-teaming & Roleplaying (opravár výťahov, technik mobilného operátora (prístup na strechu), servisák, nový zamestnanec ktorému zabudli dať prístup, Spoof mails, calls & SMS...... Spear phishing skrátka funguje aj v skutočnom svete)
@@ -30,6 +39,8 @@ Rozdelené na 2h prednášky + nápady na možné cvičenia
    - Blackmailing, pomsta bývalých zamestnancov atď., možno dať "Walling Out the Insiders" ako odporúčanú literatúru?
    - Všade ukazovať reálne príklady (TunaSec, Chris Nickerson, Deviant Ollam ...)
 
+
+### 3. Nechránené otvory a stavebné/konštrukčné/mechanické chyby, zraniteľnosti v infraštruktúre
    - Hlavne v starších budovách bude niekde núdzový výlez/východ z krytu - často nechránený alebo chránený sub-par zámkom, otvor pre šachtu na uhlie, otvor pre odpadové konvy, prístupné balkóny a pod.
    - Útoky na dvere: under/over/side door, pánty z vonkajšej strany, nesprávny alebo nesprávne nasadený zapadací plech, otáčanie vnútornou olivou zvonku, zraniteľný jednoduchý jazýček (klasika ako šetrne otvoriť zabuchnuté dvere).....
    - Útoky na pootvorené ale aj úplne zatvorené okná a balkóny (oveľa jednoduchšie ako si myslíte, ukázať najlepšie nástroje...)
@@ -37,10 +48,11 @@ Rozdelené na 2h prednášky + nápady na možné cvičenia
    - Všade poukazovať na dostupnosť a primitívnosť nástrojov
    - Infraštruktúra: Ako sa dostať k holým kontaktom v rámci siete (špeciálne v starších budovách, ktoré sa sieťovali neskôr), ako to využiť, poukázať na absenciu sond v takýchto interných sieťach. Energie a nebezpečenstvo sabotáže! Ako skutočne poriadne zabezpečiť infraštruktúru aj pred insidermi?
 
+
 ## 4. EZ&PS: Prístupové systémy a zabezpečovačky + Zabezpečenie vozidiel
    - Pokračovanie Request-To-Exit senzory a ako ich zneužiť
    - Pohony brán a závor, deravosť široko používaných protokolov, čo všetko dokáže Flipper (prepojenie s HW časťou - Ako získať KeeLoq MFKey z ovládača)
-   - S tým súvisiace protokoly používané v autách - zraniteľnosti starších aj novších áut
+   - S tým súvisiace protokoly používané v autách - zraniteľnosti starších aj novších áut (autozámky v neskoršej prednáške)
    - All-in-one prístupové systémy ktorých "rozhodovacia" elektronika je prístupná zvonku (relé, spínače a tampering senzory + ako s tým pracovať)
    - "Klasické" centralizované prístupové systémy (určite ukázať môj NetAXS Sniffer z kolejí (v tomto repo)), prejsť protokoly od Wiegand až po OSDP (Prečo sa stále používa Wiegand?!)
    - RFID: EM,HID,MIFARE... slabiny & možnosti kopírovania (čínske "magic" karty a ich generácie a ochrana pred nimi, vysokovýkonné čítačky...) Ako urobiť systém správne (nespoliehať sa na UUID, využívať možnosti tých kariet naplno)
@@ -50,16 +62,8 @@ Rozdelené na 2h prednášky + nápady na možné cvičenia
    - Centrálne pulty, spôsoby pripojenia, aké sú možnosti prerušiť spojenie alebo získať PIN?? (IMSI Catchers, simulácia PSTN, odpojenie zdroja a náhradného zdroja)
    - CCTV - klasický blinding, nutkanie skoro všetkých výrobcov pridávať nezdokumentovaný backdoor interface na resetovanie hesla (ako vo firmware nájsť detaily), filmový hack od Eric Van Albert a Zack Banks (DefCon 23).
 
-### 6. Zámky
-Pozn: odrážok je viacero, lebo mi napadlo viacero konkrétnych vecí. Stále je to možné rozdeliť na viacero prednášok
+### 5. Zámky Part 1
    - Úvod - kde sa príliš spoliehame na zámky a prečo sa o zraniteľnostiach nehovorí
-   - Zámočníctvo - ako funguje biznis, najväčší hráči a ako kľúčové služby svojimi požiadavkami na výrobcov vplývajú na znižovanie bezpečnosti
-   - Kľúče, ich výroba a kde môže bežný smrteľník nájsť potrebné informácie o zámkových systémoch a kódovaniach
-   - Ako zohnať polotovary kľúčov a ako si kľúč vyrobiť doma na kolene s pilníkom
-   - Ako odčítať mechanický kód z fotografie, ako nájsť správny profil + dá sa to naučiť aj z pohľadu?
-   - Ako si urobiť rýchlo silikónový negatív akéhokoľvek kľúča a následne ho kedykoľvek zduplikovať odlievaním kovu/epoxy. (lepšie ako vo filmoch)
-   - Systémy generálneho kľúča a ich zraniteľnosti, špeciálne pri insideroch + spôsob akým to robí napr. GUARD
-   - Key-To-Like systémy
    - Rýchlo preletieť tvarové, dózické ale aj wafer zámky (otvorí ich každý)
    - "pin tumbler" mechanizmy - najpoužívanejšie - vysvetliť základný princíp a ukázať typy ("klasický", tubulárny, dimple...)
    - Ako sa zámky bránia (security pins, pasce...)
@@ -69,4 +73,13 @@ Pozn: odrážok je viacero, lebo mi napadlo viacero konkrétnych vecí. Stále j
    - Diskové zámky ("otočné lamelové stavítka"), naznámejší zástupcovia a ich možné slabiny
    - Detto pre lever (u nás väčšinou nazývané trezorové zámky) + určite spomenúť legendány WE30C a Jamesa Clarka !!!
    - Špecializované nástroje pre tieto zámky - ako sa používajú, kde sa dajú zohnať, ako ich tajné služby vyvíjajú
-   - Bonus: Autozámky a lockless odomykanie áut (aj tam môžu byť zaujímavé veci pre neskorší lateral movement)
+   - Bonus: Autozámky
+
+### Zámky Part 2 - naučiť sa pracovať s kľúčmi
+   - Zámočníctvo - ako funguje biznis, najväčší hráči a ako kľúčové služby svojimi požiadavkami na výrobcov vplývajú na znižovanie bezpečnosti
+   - Kľúče, ich výroba a kde môže bežný smrteľník nájsť potrebné informácie o zámkových systémoch a kódovaniach
+   - Ako zohnať polotovary kľúčov a ako si kľúč vyrobiť doma na kolene s pilníkom
+   - Ako odčítať mechanický kód z fotografie, ako nájsť správny profil + dá sa to naučiť aj z pohľadu?
+   - Ako si urobiť rýchlo silikónový negatív akéhokoľvek kľúča a následne ho kedykoľvek zduplikovať odlievaním kovu/epoxy. (lepšie ako vo filmoch)
+   - Systémy generálneho kľúča a ich zraniteľnosti, špeciálne pri insideroch + spôsob akým to robí napr. GUARD
+   - Key-To-Like systémy a ako ich jendoducho prekonať
