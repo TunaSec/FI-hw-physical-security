@@ -18,7 +18,7 @@ Cvičenia sa nedajú robiť ku všetkým prednáškam, ale určite by sa dalo:
 - RF Hacking s Flipperom
 - Klonovanie nezabezpečených kariet Flipper + Proxmark, tu môžem ukázať aj svoju neverejnú prácu na PCF793x PIT transpondéroch (Ručné myčky s MARK MF2 systémami, immo starších vozidiel)
 - Môžeme chodiť po FI a ukazovať útoky pod dvere (zachytenie kľučkou), alebo ako silným magnetom znefunkčniť Abloy EL zámok (používané všade po FI), pri tom si hovoriť, akú zraniteľnosť mali analógové interkomy...
-- Diskusia a veci, ktoré by nemali byť nahrané na prednáške...
+- Diskusia o veciach, ktoré by nemali byť nahrané na prednáške...
 
 ### 1. Základy FB:
    - Legal disclaimer: Čo a prečo nesmiete robiť...
@@ -75,8 +75,8 @@ Cvičenia sa nedajú robiť ku všetkým prednáškam, ale určite by sa dalo:
    - Špecializované nástroje pre tieto zámky - ako sa používajú, kde sa dajú zohnať, ako ich tajné služby vyvíjajú
    - Bonus: Autozámky
 
-### Zámky Part 2 - naučiť sa pracovať s kľúčmi
-   - Zámočníctvo - ako funguje biznis, najväčší hráči a ako kľúčové služby svojimi požiadavkami na výrobcov vplývajú na znižovanie bezpečnosti
+### Zámky Part 2
+   - Zámkarstva/Kľúčiarstva - ako funguje biznis, najväčší hráči a ako kľúčové služby svojimi požiadavkami na výrobcov vplývajú na znižovanie bezpečnosti
    - Kľúče, ich výroba a kde môže bežný smrteľník nájsť potrebné informácie o zámkových systémoch a kódovaniach
    - Ako zohnať polotovary kľúčov a ako si kľúč vyrobiť doma na kolene s pilníkom
    - Ako odčítať mechanický kód z fotografie, ako nájsť správny profil + dá sa to naučiť aj z pohľadu?
