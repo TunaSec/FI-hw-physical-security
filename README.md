@@ -1,6 +1,14 @@
 # Návrh predmetu o fyzickej bezpečnosti
 
-Predmet má za úlohu doplniť dôležité informácie o zabezpečení priestorov a hardvéru. Absolventom, ktorí sa dostanú do firiem, tieto znalosti často chýbajú a musia si ich dopĺňať neskôr. Uvedomovať si potenciálne nedostatky v ochrane prístupu k hardvéru je na takejto pozícii veľmi dôležité.
+Predmet má za úlohu doplniť informácie o zabezpečení priestorov a hardvéru. Absolventom, ktorí sa dostanú do firiem, tieto znalosti často chýbajú a musia si ich dopĺňať neskôr - najmä ak sa dostanú na pozíciu, kde šéfujú celej kybernetickej bezpečnosti firmy. Uvedomovať si potenciálne nedostatky v ochrane prístupu k hardvéru je na takejto pozícii veľmi dôležité, pretože ide o reálne zneužiteľné problémy.
+
+Absolvent by mal po tomto predmete:
+- HW TBD
+- Poznať kritické body IT infraštruktúry, ku ktorým by mohol útočník, alebo insider dostať prístup a zneužiť ich
+- Vedieť rozoznať slabé stránky zabezpečenia budovy a spolupracovať so správou budov a s dodávateľmi na ich odstránení
+- Vedieť spolupracovať so správou budovy a s dodávateľom pri výbere a špecifikácii systému generálneho kľúča a doplnení prídavného zabezpečenia pre kritické priestory
+- Vedieť overiť správnu integráciu zabezpečovacieho systému, kamerového systému, poplašného systému a pomôcť odstrániť ich nedostatky
+- Vedieť lepšie nastaviť vnútorné smernice a audity tak, aby sa zabránilo nesprávnej distribúcii kľúčov, úniku dát fyzickou cestou, či zneužití slabín ľudského faktora
 
 Jedna časť predmetu by bola zameraná na zraniteľnosti HW samotného, čo by rozširovalo už vyučované veci - fault injections, power/time tracing, zraniteľnosti platforiem, atď
 Druhá časť by sa zameriavala na samotné zabezpečenie prístupu (OK, vieme, čo môže útočník urobiť s HW, keď sa k nemu dostane, ale AKO sa k nemu dostane?)
